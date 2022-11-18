@@ -1,0 +1,99 @@
+body {
+    background-color: #00030C;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.secao-principal {
+    background-image: url("img/Backgroundbackground-instrutores.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__botao {
+    color: #FFFFFF;
+    background-color: #167BF7;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    margin-bottom: 1em;
+    text-align: center;
+    align-items: center;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: #FFFFFF solid 0.8px;
+}
+
+.container__aviso {
+    color: #C0C0C0;
+    font-size: 12px;
+}
+
+.container__titulo {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.titulo-descricao {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0.1em;
+} 
+
+.titulo-descricao-paragrafo {
+    font-size: 12px;
+    font-weight: 400;
+    color :#C0C0C0;
+
+}
+
+.botao_terciario {
+    display: inline-block; 
+    font-size: 16px;
+    font-weight: 400;
+    margin: 1em 0;
+}
+
+.terciario__imagem {
+    margin:  0 2em;
+}
+
+.imagem__notebook {
+    margin-left: -5em;
+}
